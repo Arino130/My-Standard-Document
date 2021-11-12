@@ -1,4 +1,4 @@
-<br>Tổng hợp các Regrex thường dùng:</br>
+I) Tổng hợp các Regrex thường dùng:
 1) Kiểm tra từ tiếng việt: ^[A-Za-zÀÁÂÃÈÉÊÌÍÒÓÔÕÙÚÝàáâãèéêìíòóôõùúýĂăĐđĨĩŨũƠơƯưẠ-ỹ\\s]+$
 2) Kiểm tra Email: ^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\\.[a-zA-Z]{2,6}$
 3) Kiểm tra kí tự số: \\d+
