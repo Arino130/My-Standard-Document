@@ -1,7 +1,7 @@
 I) Tổng hợp các Regrex thường dùng:
 1) Kiểm tra từ tiếng việt: ^[A-Za-zÀÁÂÃÈÉÊÌÍÒÓÔÕÙÚÝàáâãèéêìíòóôõùúýĂăĐđĨĩŨũƠơƯưẠ-ỹ\\s]+$
 2) Kiểm tra Email: ^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\\.[a-zA-Z]{2,6}$
-3) Kiểm tra kí tự số: \\d+
+3) Kiểm tra kí tự số: ^[0-9]+$
 4) Kiểm tra khoảng trắng ở đầu và cuối: ^[ \s]+|[ \s]+$
 5) Kiểm tra địa chỉ: ^[A-Za-zÀÁÂÃÈÉÊÌÍÒÓÔÕÙÚÝàáâãèéêìíòóôõùúýĂăĐđĨĩŨũƠơƯưẠ-ỹ0-9,/\\s]+
 6) Kiểm tra chữ không dấu và số: [a-zA-Z0-9]+
